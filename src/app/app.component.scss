@@ -1,0 +1,35 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .main-body{
+    margin: auto;
+    width: 1248px;
+    padding-top: 30px;
+    mat-form-field{
+      width: 100%;
+    }
+    .mat-mdc-table{
+      width: 100%;
+    }
+    .mdc-data-table__cell, 
+    .mdc-data-table__header-cell{
+      padding: 0 8px;
+      white-space: nowrap;
+    }
+    .text-center {
+      &.mat-sort-header-container{
+      justify-content: center !important;
+    }
+  }
+  }
+
+  @media (max-width: 999px){
+    .main-body{
+      width: 100%;
+    }
+    .table-responsive{
+      overflow-x: auto;
+    }
+  }
+  
+  
